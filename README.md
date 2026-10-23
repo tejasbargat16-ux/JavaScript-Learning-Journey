@@ -1,409 +1,49 @@
-🟨 JavaScript Learning Journey
+# 🚀 JavaScript Learning Journey
 
-«🚀 A complete journey from JavaScript Beginner → Advanced JavaScript → Full-Stack Development»
+![Banner](assets/banner.png)
 
-Welcome to my JavaScript Learning Journey!
-This repository documents my progress as I learn JavaScript from the fundamentals and gradually move toward advanced concepts, web development, APIs, backend development, and real-world projects.
+My journey of learning JavaScript through daily practice. Every day has its own folder containing code, practice problems, and notes.
 
-The goal is not just to learn syntax — it is to understand how JavaScript works, build projects, solve problems, and create proof of work on GitHub.
+## 📅 Progress
 
----
+<!-- PROGRESS:START -->
 
-🎯 Main Goals
+| Day | Topic | Status | Folder |
+|:---|:---|:---:|:---|
+| Day 01 | JavaScript Basics | ✅ | [Day-01](./Day-01) |
+| Day 02 | Operators, Input & Type Conversion | ✅ | [Day-02](./Day-02) |
+| Day 03 | Conditional Statements | ✅ | [Day-03](./Day-03) |
+| Day 04 | | Problem| Concept | ✅ | [Day-04](./Day-04) |
+| Day 05 | | Problem| Concepts | ✅ | [Day-05](./Day-05) |
+| Day 06 | Arrays | ✅ | [Day-06](./Day-06) |
+| Day 07 | Objects | ✅ | [Day-07](./Day-07) |
+| Day 08 | Strings & String Methods | ✅ | [Day-08](./Day-08) |
+| Day 09 | Array Methods | ✅ | [Day-09](./Day-09) |
+| Day 10 | Destructuring & Spread | ⏳ | [Day-10](./Day-10) |
 
-- Learn JavaScript from scratch
-- Build strong programming fundamentals
-- Understand modern JavaScript (ES6+)
-- Practice problem-solving
-- Learn DOM manipulation
-- Build interactive web applications
-- Work with APIs and asynchronous JavaScript
-- Learn Node.js and backend development
-- Build real-world projects
-- Maintain a consistent GitHub learning record
-- Create a strong JavaScript portfolio
+<!-- PROGRESS:END -->
 
----
+## 📸 Screenshots
 
-📚 Learning Roadmap
+| Running code in Termux | Antigravity IDE |
+|---|---|
+| ![Termux Output](assets/termux-output.png) | ![Antigravity](assets/antigravity.png) |
 
-🟢 Phase 1 — JavaScript Fundamentals
+| GitHub Repo | Day 09 Output |
+|---|---|
+| ![GitHub Repo](assets/github-repo.png) | ![Day 09](assets/day09-output.png) |
 
-Day 01 — Introduction & Basics
+## 🏗️ Architecture
 
-- What is JavaScript?
-- JavaScript environment
-- "console.log()"
-- Variables
-- "let"
-- "const"
-- "var"
-- Data types
-- "typeof"
-- Basic arithmetic
+### Repo Layout (Detailed)
 
-Day 02 — Operators & Input
-
-- Arithmetic operators
-- Assignment operators
-- Comparison operators
-- Logical operators
-- User input
-- Type conversion
-- Template literals
-
-Day 03 — Conditional Statements
-
-- "if"
-- "else"
-- "else if"
-- Nested conditions
-- Ternary operator
-- Truthy and falsy values
-
-Day 04 — Loops
-
-- "for"
-- "while"
-- "do...while"
-- "break"
-- "continue"
-- Nested loops
-
-Day 05 — Functions
-
-- Function declaration
-- Function parameters
-- Arguments
-- Return values
-- Function expressions
-- Arrow functions
-- Scope
-
-Day 06 — Arrays
-
-- Creating arrays
-- Accessing elements
-- Updating elements
-- Array length
-- Adding/removing elements
-- Basic array methods
-
-Day 07 — Objects
-
-- Object creation
-- Properties
-- Methods
-- Accessing properties
-- Updating objects
-- Nested objects
-
----
-
-🟡 Phase 2 — Modern JavaScript
-
-Day 08 — Strings
-
-- String methods
-- Template literals
-- String searching
-- String manipulation
-
-Day 09 — Array Methods
-
-- "forEach()"
-- "map()"
-- "filter()"
-- "find()"
-- "some()"
-- "every()"
-- "reduce()"
-
-Day 10 — Destructuring & Spread
-
-- Array destructuring
-- Object destructuring
-- Spread operator
-- Rest operator
-
-Day 11 — Advanced Functions
-
-- Callback functions
-- Higher-order functions
-- Closures
-- IIFE
-- Default parameters
-
-Day 12 — Scope & Execution
-
-- Global scope
-- Function scope
-- Block scope
-- Lexical scope
-- Hoisting
-- Execution context
-
-Day 13 — Error Handling
-
-- "try"
-- "catch"
-- "finally"
-- "throw"
-- Custom errors
-
-Day 14 — Modules
-
-- "export"
-- "import"
-- Default exports
-- Named exports
-- Module structure
-
----
-
-🔵 Phase 3 — DOM & Browser JavaScript
-
-Day 15 — DOM Introduction
-
-- What is the DOM?
-- Selecting elements
-- "querySelector()"
-- "querySelectorAll()"
-- Changing content
-
-Day 16 — DOM Manipulation
-
-- Changing styles
-- Creating elements
-- Removing elements
-- Adding classes
-- Attributes
-
-Day 17 — Events
-
-- Click events
-- Keyboard events
-- Mouse events
-- Event listeners
-- Event objects
-
-Day 18 — Forms
-
-- Form handling
-- Input values
-- Validation
-- Submit events
-- Preventing default behavior
-
-Day 19 — Browser Storage
-
-- Local Storage
-- Session Storage
-- JSON
-- Saving data
-- Reading data
-
-Day 20 — Mini Project
-
-Build an interactive browser-based project using:
-
-- HTML
-- CSS
-- JavaScript
-- DOM
-- Events
-- Local Storage
-
----
-
-🟣 Phase 4 — Asynchronous JavaScript
-
-Day 21 — Async Fundamentals
-
-- Synchronous vs asynchronous code
-- Callbacks
-- Timers
-- "setTimeout()"
-- "setInterval()"
-
-Day 22 — Promises
-
-- Promise concept
-- Promise states
-- ".then()"
-- ".catch()"
-- ".finally()"
-
-Day 23 — Async/Await
-
-- "async"
-- "await"
-- Error handling
-- Async functions
-
-Day 24 — Fetch API
-
-- HTTP requests
-- "fetch()"
-- GET requests
-- POST requests
-- JSON responses
-- API errors
-
-Day 25 — API Project
-
-Build a project using a public API.
-
-Possible projects:
-
-- Weather App
-- GitHub Profile Finder
-- Movie Search App
-- Currency Converter
-- Quote Generator
-
----
-
-🔴 Phase 5 — Advanced JavaScript
-
-Topics
-
-- Execution Context
-- Call Stack
-- Event Loop
-- Microtasks
-- Macrotasks
-- Closures
-- Prototypes
-- Prototype Chain
-- "this"
-- "call()"
-- "apply()"
-- "bind()"
-- Constructor functions
-- Classes
-- Inheritance
-- Getters and Setters
-- Iterators
-- Generators
-- Symbols
-- Maps
-- Sets
-- WeakMap
-- WeakSet
-- Regular Expressions
-- Memory management
-
----
-
-⚫ Phase 6 — Node.js
-
-After mastering browser JavaScript, the journey moves into backend development.
-
-Topics
-
-- Node.js fundamentals
-- Node.js runtime
-- npm
-- "package.json"
-- Modules
-- File system
-- Path module
-- HTTP module
-- Environment variables
-- CLI applications
-- Async Node.js
-
----
-
-🟤 Phase 7 — Backend Development
-
-Express.js
-
-- Express fundamentals
-- Routes
-- Middleware
-- Request/Response
-- REST APIs
-- CRUD operations
-- Error handling
-- Authentication basics
-- API structure
-
----
-
-🟠 Phase 8 — Databases
-
-Learn how JavaScript applications communicate with databases.
-
-Topics
-
-- Database fundamentals
-- SQL basics
-- NoSQL concepts
-- MongoDB
-- CRUD
-- Database relationships
-- Data validation
-- Connecting backend to database
-
----
-
-🟢 Phase 9 — Full-Stack JavaScript
-
-Combine everything.
-
-Frontend
-
-- HTML
-- CSS
-- JavaScript
-- DOM
-- APIs
-- Modern frontend concepts
-
-Backend
-
-- Node.js
-- Express.js
-- REST APIs
-- Authentication
-- Databases
-
-Final Goal
-
-Build complete full-stack applications.
-
----
-
-🛠️ Tools & Technologies
-
-Throughout this journey, I will work with:
-
-- JavaScript
-- HTML
-- CSS
-- Node.js
-- npm
-- Express.js
-- Git
-- GitHub
-- REST APIs
-- JSON
-- MongoDB
-- SQL
-- VS Code / Termux
-
----
-
-📂 Repository Structure
-
+```text
 JavaScript-Learning-Journey/
 │
 ├── Day-01/
-│   ├── day01.js
-│   ├── day01_practice.js
-│   └── README.md
+│   ├── day01.js              # Concept code + comments
+│   ├── day01_practice.js     # Practice problems
+│   └── README.md             # Notes, syntax, common mistakes
 │
 ├── Day-02/
 │   ├── day02.js
@@ -415,197 +55,196 @@ JavaScript-Learning-Journey/
 │   ├── day03_practice.js
 │   └── README.md
 │
-├── ...
+├── Day-04/
+│   ├── day04.js
+│   ├── day04_practice.js
+│   └── README.md
 │
-├── Projects/
-│   ├── Project-01/
-│   ├── Project-02/
-│   └── Project-03/
+├── Day-05/
+│   ├── day05.js
+│   ├── day05_practice.js
+│   └── README.md
 │
-└── README.md
+├── Day-06/
+│   ├── day06.js
+│   ├── day06_practice.js
+│   └── README.md
+│
+├── Day-07/
+│   ├── day07.js
+│   ├── day07_practice.js
+│   └── README.md
+│
+├── Day-08/
+│   ├── day08.js
+│   ├── day08_practice.js
+│   └── README.md
+│
+├── Day-09/                   # Array methods
+│   ├── day09.js              # forEach, map, filter, find, some, every, reduce
+│   ├── day09_practice.js     # Practice on array methods
+│   └── README.md             # Notes on array methods
+│
+├── Day-10/                   # Destructuring & Spread
+│   ├── day10.js
+│   ├── day10_practice.js
+│   └── README.md
+│
+├── assets/                   # Images used in this README
+│   ├── banner.png
+│   ├── termux-output.png
+│   ├── antigravity.png
+│   ├── github-repo.png
+│   └── day09-output.png
+│
+├── .github/
+│   └── workflows/
+│       └── update-readme.yml   # Auto-updates README on push
+│
+├── scripts/
+│   └── update-readme.js        # Builds the Progress table
+│
+├── .gitignore                # node_modules/, .env, *.log
+└── README.md                 # Main overview (this file)
+```
 
----
+### Top-level Files & Folders
 
-🧪 Practice Strategy
+| Path | Type | Purpose |
+|------|------|---------|
+| `Day-XX/` | Folder | All learning material for a single day |
+| `assets/` | Folder | Photos and screenshots used in this README |
+| `.github/workflows/` | Folder | GitHub Actions automation |
+| `scripts/` | Folder | Helper scripts used by the workflow |
+| `.gitignore` | File | Keeps unwanted files out of Git |
+| `README.md` | File | Repo overview, progress, and architecture |
 
-Every learning day follows this structure:
+### Day-wise Folder Index
 
-📖 Learn
-   ↓
-💻 Code
-   ↓
-🧪 Practice
-   ↓
-🐛 Debug
-   ↓
-🚀 Build
-   ↓
-📌 Record on GitHub
+| Folder | Topic | Files |
+|--------|-------|-------|
+| `Day-01` | Basics, Variables & Data Types | `day01.js`, `day01_practice.js`, `README.md` |
+| `Day-02` | Operators, Input & Type Conversion | `day02.js`, `day02_practice.js`, `README.md` |
+| `Day-03` | Conditional Statements | `day03.js`, `day03_practice.js`, `README.md` |
+| `Day-04` | Loops | `day04.js`, `day04_practice.js`, `README.md` |
+| `Day-05` | Functions | `day05.js`, `day05_practice.js`, `README.md` |
+| `Day-06` | Arrays | `day06.js`, `day06_practice.js`, `README.md` |
+| `Day-07` | Objects | `day07.js`, `day07_practice.js`, `README.md` |
+| `Day-08` | Strings & String Methods | `day08.js`, `day08_practice.js`, `README.md` |
+| `Day-09` | Array Methods | `day09.js`, `day09_practice.js`, `README.md` |
+| `Day-10` | Destructuring & Spread | `day10.js`, `day10_practice.js`, `README.md` |
 
-I will focus on writing code myself rather than simply copying solutions.
+### Day README Template
 
----
+Every `Day-XX/README.md` follows this structure:
 
-🚀 Projects
+```markdown
+# Day XX: <Topic>
 
-Projects will be added progressively as my skills improve.
+## 📌 Concept
+A short explanation in my own words.
 
-Beginner Projects
+## 🧪 Syntax
+Code snippet.
 
-- Calculator
-- Number Guessing Game
-- Simple Quiz
-- Counter App
-- To-Do List
-- Digital Clock
+## 💡 Examples
+2-3 small examples with output.
 
-Intermediate Projects
+## ⚠️ Common Mistakes
+Mistakes I made or could easily make.
 
-- Weather App
-- Expense Tracker
-- Notes App
-- Password Generator
-- Quiz Application
-- GitHub Profile Finder
+## ✅ Practice
+What I solved in `dayXX_practice.js`.
+```
 
-Advanced Projects
+### Each Day Folder Pattern
 
-- Authentication System
-- REST API
-- Full-Stack Task Manager
-- E-commerce Application
-- Real-Time Application
-- Full-Stack Dashboard
+| File | Purpose |
+|------|---------|
+| `dayXX.js` | The day's concept, with commented examples |
+| `dayXX_practice.js` | Practice problems I wrote myself |
+| `README.md` | Concept summary, syntax, and common mistakes |
 
----
+### Learning Flow
 
-📈 Progress Tracker
+```mermaid
+flowchart LR
+    A[Read the concept] --> B[Write code in dayXX.js]
+    B --> C[Practice in dayXX_practice.js]
+    C --> D[Write notes in README.md]
+    D --> E[git commit + push]
+    E --> F[Next Day]
+```
 
-Phase| Status
-JavaScript Basics| ⬜
-Operators & Conditions| ⬜
-Loops| ⬜
-Functions| ⬜
-Arrays| ⬜
-Objects| ⬜
-Modern JavaScript| ⬜
-DOM| ⬜
-Events| ⬜
-Forms| ⬜
-Local Storage| ⬜
-Async JavaScript| ⬜
-Promises| ⬜
-Async/Await| ⬜
-APIs| ⬜
-Advanced JavaScript| ⬜
-Node.js| ⬜
-Express.js| ⬜
-Databases| ⬜
-Full-Stack Development| ⬜
-Real-World Projects| ⬜
+### Learning Roadmap
 
-«⬜ Not Started
-🟡 In Progress
-✅ Completed»
+```mermaid
+flowchart TD
+    A[Basics: variables, data types, operators] --> B[Control flow: if/else, loops]
+    B --> C[Functions]
+    C --> D[Arrays & Objects]
+    D --> E[Array Methods: map, filter, reduce]
+    E --> F[DOM Manipulation]
+    F --> G[Async JS: Promises, async/await, Fetch]
+    G --> H[Node.js / Frameworks]
+```
 
----
+### Naming Conventions
 
-🧠 What I Want to Achieve
+- Folders: `Day-XX` (zero-padded, e.g. `Day-09`)
+- Files: `dayXX.js`, `dayXX_practice.js`
+- Commits: `Day 09: array methods` or `docs: update README`
 
-By the end of this journey, I want to be able to:
+### Workflow (Termux)
 
-Understand
-    ↓
-Write
-    ↓
-Debug
-    ↓
-Design
-    ↓
-Build
-    ↓
-Deploy
-    ↓
-Maintain
+```bash
+cd JavaScript-Learning-Journey
+mkdir Day-10 && cd Day-10
+touch day10.js day10_practice.js README.md
+node day10.js                      # run & test
+cd ..
+git add .
+git commit -m "Day 10: <topic>"
+git push
+```
 
-real JavaScript applications.
+## 🤖 Automation
 
-The objective is not just completing a course.
+Every time I push a `Day-XX` folder, a GitHub Action runs `scripts/update-readme.js` and refreshes the Progress table above.
 
-The objective is becoming capable of taking an idea and turning it into a working product.
+- **Topic** is read from the heading of `Day-XX/README.md` or `dayXX.js`
+- **Status** is ✅ when `dayXX.js` has code, ⏳ when it is empty
+- The bot commits the change with `[skip ci]`, so it never loops
 
----
+## ▶️ How to Run
 
-🔥 Daily Commitment
+**Termux (Android):**
+```bash
+pkg install nodejs
+git clone https://github.com/tejasbargat16-ux/JavaScript-Learning-Journey.git
+cd JavaScript-Learning-Journey/Day-09
+node day09.js
+```
 
-Each day I will try to:
+**Laptop / PC:**
+```bash
+node Day-09/day09.js
+```
 
-- Learn a new concept
-- Write code
-- Solve practice problems
-- Debug errors
-- Build something
-- Commit my work
-- Track my progress
+## 🎯 Goal
 
----
+Build a strong JavaScript foundation, then move on to Node.js and frontend frameworks, and build real projects.
 
-📊 Skills Progress
+## 🛠️ Tools
 
-JavaScript Fundamentals    ░░░░░░░░░░  0%
-Modern JavaScript          ░░░░░░░░░░  0%
-DOM & Browser APIs         ░░░░░░░░░░  0%
-Async JavaScript           ░░░░░░░░░░  0%
-Advanced JavaScript        ░░░░░░░░░░  0%
-Node.js                    ░░░░░░░░░░  0%
-Backend Development        ░░░░░░░░░░  0%
-Databases                  ░░░░░░░░░░  0%
-Full-Stack Development     ░░░░░░░░░░  0%
+- JavaScript (ES6+)
+- Node.js
+- Git & GitHub
+- Termux (Android)
+- Google Antigravity (AI-powered IDE)
 
-This progress will be updated as the journey continues.
+## 👤 Author
 
----
+**Tejas** · [@tejasbargat16-ux](https://github.com/tejasbargat16-ux)
 
-📝 Learning Philosophy
-
-«Don't just memorize code. Understand why the code works.»
-
-Every error is part of the learning process.
-
-Every project is proof of progress.
-
-Every Git commit is a record of the journey.
-
----
-
-🚀 Final Mission
-
-JavaScript Beginner
-        ↓
-JavaScript Developer
-        ↓
-Full-Stack Developer
-        ↓
-Problem Solver
-        ↓
-Product Builder 🚀
-
-This repository is my public record of that journey.
-
----
-
-⭐ Follow the Journey
-
-If you find this repository useful or interesting, feel free to ⭐ the repository.
-
-Built one line of code at a time. 💻🔥
-
----
-
-Current Status
-
-Day: 01
-Current Topic: JavaScript Fundamentals
-Status: 🟡 In Progress
-Next: Operators & User Input
-# JavaScript-Learning-Journey
+⭐ If you find this helpful, give it a star!
