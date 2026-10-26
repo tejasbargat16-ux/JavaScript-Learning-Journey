@@ -20,6 +20,7 @@ My journey of learning JavaScript through daily practice. Every day has its own 
 | Day 08 | Strings & String Methods | ✅ | [Day-08](./Day-08) |
 | Day 09 | Array Methods | ✅ | [Day-09](./Day-09) |
 | Day 10 | Destructuring & Spread | ⏳ | [Day-10](./Day-10) |
+| Day 11 | Topic 11 | ⏳ | [Day-11](./Day-11) |
 
 <!-- PROGRESS:END -->
 
