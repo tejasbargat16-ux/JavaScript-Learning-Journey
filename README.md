@@ -20,8 +20,8 @@ My journey of learning JavaScript through daily practice. Every day has its own 
 | Day 08 | Strings & String Methods | ✅ | [Day-08](./Day-08) |
 | Day 09 | Array Methods | ✅ | [Day-09](./Day-09) |
 | Day 10 | Advanced Array Operations | ✅ | [Day-10](./Day-10) |
-| Day 11 | Topic 11 | ⏳ | [Day-11](./Day-11) |
-| Day 12 | Topic 12 | ⏳ | [Day-12](./Day-12) |
+| Day 11 | Callbacks & Higher-Order Functions | ⏳ | [Day-11](./Day-11) |
+| Day 12 | Arrow Functions & Task Manager | ⏳ | [Day-12](./Day-12) |
 
 <!-- PROGRESS:END -->
 
@@ -92,6 +92,13 @@ JavaScript-Learning-Journey/
 │   ├── day10_practice.js
 │   └── README.md
 │
+├── DSA/                      # Data structures & algorithms practice
+│   ├── arrays/               # Array problems & patterns
+│   ├── strings/              # String problems & patterns
+│   ├── NOTES.md              # DSA roadmap & theory
+│   ├── README.md             # Auto-generated DSA problem tracker
+│   └── _template.js          # DSA problem solution template
+│
 ├── assets/                   # Images used in this README
 │   ├── banner.png
 │   ├── termux-output.png
@@ -101,11 +108,16 @@ JavaScript-Learning-Journey/
 │
 ├── .github/
 │   └── workflows/
-│       └── update-readme.yml   # Auto-updates README on push
+│       └── update-docs.yml     # Auto-updates README & notes on push
 │
 ├── scripts/
-│   └── update-readme.js        # Builds the Progress table
+│   ├── update-readme.js        # Builds the Progress table
+│   ├── update-notes.js         # Builds INTERVIEW_NOTES.md & DSA/README.md
+│   ├── new.ps1                 # Windows PowerShell scaffold helper
+│   ├── new.sh                  # Bash / Termux scaffold helper
+│   └── templates/              # Markdown templates for new days
 │
+├── INTERVIEW_NOTES.md        # Auto-compiled interview Q&As & common mistakes
 ├── .gitignore                # node_modules/, .env, *.log
 └── README.md                 # Main overview (this file)
 ```
@@ -115,9 +127,11 @@ JavaScript-Learning-Journey/
 | Path | Type | Purpose |
 |------|------|---------|
 | `Day-XX/` | Folder | All learning material for a single day |
+| `DSA/` | Folder | Data structures & algorithms practice and tracker |
+| `INTERVIEW_NOTES.md` | File | Auto-compiled interview Q&A and common mistakes |
 | `assets/` | Folder | Photos and screenshots used in this README |
-| `.github/workflows/` | Folder | GitHub Actions automation |
-| `scripts/` | Folder | Helper scripts used by the workflow |
+| `.github/workflows/` | Folder | GitHub Actions automation workflows |
+| `scripts/` | Folder | Automation scripts (`update-readme.js`, `update-notes.js`, scaffolding) |
 | `.gitignore` | File | Keeps unwanted files out of Git |
 | `README.md` | File | Repo overview, progress, and architecture |
 
@@ -210,13 +224,29 @@ git commit -m "Day 10: <topic>"
 git push
 ```
 
-## 🤖 Automation
+## 🤖 Automation & Tools
 
-Every time I push a `Day-XX` folder, a GitHub Action runs `scripts/update-readme.js` and refreshes the Progress table above.
+Every time I push a `Day-XX` or `DSA` folder, a GitHub Action (`.github/workflows/update-docs.yml`) automatically runs:
 
-- **Topic** is read from the heading of `Day-XX/README.md` or `dayXX.js`
-- **Status** is ✅ when `dayXX.js` has code, ⏳ when it is empty
-- The bot commits the change with `[skip ci]`, so it never loops
+1. **`scripts/update-readme.js`**: Refreshes the Progress table in [README.md](README.md).
+   - **Topic** is extracted from the heading of `Day-XX/README.md` or comments in `dayXX.js`
+   - **Status** is ✅ when `dayXX.js` has code, ⏳ when it is empty
+2. **`scripts/update-notes.js`**:
+   - Compiles all `## 🎤 Interview Q&A` and `## ⚠️ Common Mistakes` into [INTERVIEW_NOTES.md](INTERVIEW_NOTES.md)
+   - Reads metadata headers from `DSA/**.js` and updates the tracker table in [DSA/README.md](DSA/README.md)
+3. The bot commits updates cleanly using `[skip ci]`, avoiding infinite loops.
+
+### ⚡ Scaffolding Helper
+
+Quickly create a new day folder or DSA problem (works on Windows, Linux, Mac & Termux):
+
+```bash
+# Create a new day folder with template README and empty JS files:
+node scripts/new.js day 13 "Closures & Scope"
+
+# Add a new DSA problem file using the template:
+node scripts/new.js dsa arrays two-sum "Two Sum" Easy "Hash Map"
+```
 
 ## ▶️ How to Run
 

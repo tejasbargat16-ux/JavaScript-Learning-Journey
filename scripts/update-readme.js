@@ -14,7 +14,9 @@ const TOPIC_FALLBACKS = {
   'Day-07': 'Objects',
   'Day-08': 'Strings & String Methods',
   'Day-09': 'Array Methods',
-  'Day-10': 'Destructuring & Spread'
+  'Day-10': 'Destructuring & Spread',
+  'Day-11': 'Callbacks & Higher-Order Functions',
+  'Day-12': 'Arrow Functions & Task Manager'
 };
 
 function getDayFolders() {
