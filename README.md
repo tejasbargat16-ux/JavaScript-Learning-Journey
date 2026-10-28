@@ -22,6 +22,7 @@ My journey of learning JavaScript through daily practice. Every day has its own 
 | Day 10 | Advanced Array Operations | ✅ | [Day-10](./Day-10) |
 | Day 11 | Callbacks & Higher-Order Functions | ⏳ | [Day-11](./Day-11) |
 | Day 12 | Arrow Functions & Task Manager | ⏳ | [Day-12](./Day-12) |
+| Day 13 | Topic 13 | ⏳ | [Day-13](./Day-13) |
 
 <!-- PROGRESS:END -->
 
