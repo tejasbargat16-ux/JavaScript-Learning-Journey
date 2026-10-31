@@ -19,6 +19,7 @@ Auto-compiled from every day's notes. **0** questions across **0** days.
 | [Day-10](Day-10/README.md) | Advanced Array Operations | — | — |
 | [Day-11](Day-11/README.md) | Callbacks & Higher-Order Functions | — | — |
 | [Day-12](Day-12/README.md) | Arrow Functions & Task Manager | — | — |
+| [Day-13](Day-13/README.md) | — | — | — |
 
 ---
 
