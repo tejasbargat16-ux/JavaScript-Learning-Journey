@@ -21,6 +21,7 @@ Auto-compiled from every day's notes. **0** questions across **0** days.
 | [Day-12](Day-12/README.md) | Arrow Functions & Task Manager | — | — |
 | [Day-13](Day-13/README.md) | — | — | — |
 | [Day-14](Day-14/README.md) | — | — | — |
+| [Day-15](Day-15/README.md) | — | — | — |
 
 ---
 
